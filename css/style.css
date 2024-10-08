@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100%; 
+    display: flex;
+    font-size: 15px;
+    background-color: hsl(24.33deg 100% 50.2%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 19%;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(60deg 2.04% 90.39%);
+}
+
+ul {
+    list-style: none;
+}
+
+.gender {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    width: 130px;
+}
+
+.menu {
+    display: flex;
+    gap: 8px;
+}
+
+.icons1 {
+    width: 15px;
+}
+
+/* /header */
+
+/* main */
+
+img {
+    width: 100%;
+}
+
+main {
+    padding: 100px 15% 0px 15%;
+}
+
+.container {
+    margin: 0 auto;
+    padding:70px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.col {
+    width: calc(95% / 3);
+}
+
+.redstrong {
+    color: red;
+}
+
+.line-on {
+    text-decoration: line-through;
+}
+/* /main */
+
+/* footer */
+footer { 
+    display: flex;
+    font-size: 15px;
+    background-color: hsl(0deg 0% 10.2%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 19%;
+}
+
+.srl {
+    color: hsl(60deg 2.04% 90.39%);
+}
+
+.downleft {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.downright {
+    display: flex;
+    gap: 8px;
+}
+
+.icons2 {
+    width: 18px;
+}
+/* /footer */
